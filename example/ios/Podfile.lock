@@ -59,6 +59,7 @@ PODS:
   - React-jsinspector (0.60.4)
   - react-native-stripe-sca (0.1.0):
     - React
+    - Stripe
   - React-RCTActionSheet (0.60.4):
     - React-Core (= 0.60.4)
   - React-RCTAnimation (0.60.4):
@@ -83,6 +84,7 @@ PODS:
   - React-RCTWebSocket (0.60.4):
     - React-Core (= 0.60.4)
     - React-fishhook (= 0.60.4)
+  - Stripe (15.0.0)
   - yoga (0.60.4.React)
 
 DEPENDENCIES:
@@ -113,6 +115,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
+    - Stripe
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -175,7 +178,7 @@ SPEC CHECKSUMS:
   React-jsi: 21d3153b1153fbf6510a92b6b11e33e725cb7432
   React-jsiexecutor: 7549641e48bafae7bfee3f3ea19bf4901639c5de
   React-jsinspector: 73f24a02fa684ed6a2b828ba116874a2191ded88
-  react-native-stripe-sca: b529060a47f1a86d0726dfe80a8f2e85551abad4
+  react-native-stripe-sca: 33eee65e672a61147d0f205a7c4fad4208154278
   React-RCTActionSheet: 9f71d7ae3e8fb10e08d162cbf14c621349dbfab3
   React-RCTAnimation: 981d8c95b0e30918a9832ccac32af83562a27fae
   React-RCTBlob: 21e73d1020a302a75fed30dbaee9f15287b80baa
@@ -186,6 +189,7 @@ SPEC CHECKSUMS:
   React-RCTText: e0f224898b13af9aa036ea7cb3d438daa68c1044
   React-RCTVibration: 0bea40cd51bd089bd591a8f74c86e91fdf2666c5
   React-RCTWebSocket: 163873f4cdd5f1058a9483443404fc3801581cb6
+  Stripe: 312b22a67af9fa55c246d26148b3f3a9636a0ff2
   yoga: c2c050f6ae6e222534760cc82f559b89214b67e2
 
 PODFILE CHECKSUM: 92bb007061933db9bbb7ada04f194d1f1b603339
