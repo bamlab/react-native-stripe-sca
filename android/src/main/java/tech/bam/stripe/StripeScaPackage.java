@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package tech.bam.stripe;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -60,7 +60,7 @@ def configureReactNativePom(def pom) {
         name packageJson.title
         artifactId packageJson.name
         version = packageJson.version
-        group = "com.reactlibrary"
+        group = "tech.bam.stripe"
         description packageJson.description
         url packageJson.repository.baseUrl
 
@@ -69,13 +69,6 @@ def configureReactNativePom(def pom) {
                 name packageJson.license
                 url packageJson.repository.baseUrl + '/blob/master/' + packageJson.licenseFilename
                 distribution 'repo'
-            }
-        }
-
-        developers {
-            developer {
-                id packageJson.author.username
-                name packageJson.author.name
             }
         }
     }

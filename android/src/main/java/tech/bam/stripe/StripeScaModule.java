@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package tech.bam.stripe;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
