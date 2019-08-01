@@ -1,1 +1,1 @@
-console.log('Coucou');
+export const log = () => console.log('Coucou');

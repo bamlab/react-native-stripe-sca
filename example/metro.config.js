@@ -4,8 +4,11 @@
  *
  * @format
  */
+const path = require('path');
 
 module.exports = {
+  projectRoot: path.resolve(__dirname),
+  watchFolders: [path.resolve(__dirname, '../dist')],
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -13,5 +16,10 @@ module.exports = {
         inlineRequires: false,
       },
     }),
+  },
+  resolver: {
+    extraNodeModules: {
+      'react-native-stripe-sca': path.resolve(__dirname, '../dist'),
+    },
   },
 };
