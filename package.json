@@ -1,5 +1,6 @@
 {
   "name": "react-native-stripe-sca",
+  "description": "React Native Stripe Payment Intent Bridges",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/react-native-stripe-sca.esm.js",
