@@ -8,7 +8,8 @@
   "files": [
     "dist",
     "android",
-    "ios"
+    "ios",
+    "react-native-stripe-sca.podspec"
   ],
   "repository": {
     "baseUrl": "git@github.com:bamlab/react-native-stripe-sca.git"
