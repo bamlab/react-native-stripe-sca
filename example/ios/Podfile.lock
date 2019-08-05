@@ -57,7 +57,7 @@ PODS:
     - React-cxxreact (= 0.60.4)
     - React-jsi (= 0.60.4)
   - React-jsinspector (0.60.4)
-  - react-native-stripe-sca (0.1.0):
+  - react-native-stripe-sca (1.1.1):
     - React
     - Stripe
   - React-RCTActionSheet (0.60.4):
@@ -178,7 +178,7 @@ SPEC CHECKSUMS:
   React-jsi: 21d3153b1153fbf6510a92b6b11e33e725cb7432
   React-jsiexecutor: 7549641e48bafae7bfee3f3ea19bf4901639c5de
   React-jsinspector: 73f24a02fa684ed6a2b828ba116874a2191ded88
-  react-native-stripe-sca: 33eee65e672a61147d0f205a7c4fad4208154278
+  react-native-stripe-sca: 5493f5d8f69e50ca38d28ef7276c90bcfba4b47d
   React-RCTActionSheet: 9f71d7ae3e8fb10e08d162cbf14c621349dbfab3
   React-RCTAnimation: 981d8c95b0e30918a9832ccac32af83562a27fae
   React-RCTBlob: 21e73d1020a302a75fed30dbaee9f15287b80baa
