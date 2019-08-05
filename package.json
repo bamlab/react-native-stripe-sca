@@ -6,7 +6,9 @@
   "module": "dist/react-native-stripe-sca.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "android",
+    "ios"
   ],
   "repository": {
     "baseUrl": "git@github.com:bamlab/react-native-stripe-sca.git"
