@@ -1,3 +1,12 @@
+<a name="1.1.2"></a>
+
+## [1.1.2](https://github.com/bamlab/react-native-stripe-sca/compare/1.1.1...1.1.2) (2019-08-05)
+
+### 📝 Documentation
+
+- **README:** add build badge ([63d7c5e](https://github.com/bamlab/react-native-stripe-sca/commit/63d7c5e))
+- **README:** add coverage badge ([621b67a](https://github.com/bamlab/react-native-stripe-sca/commit/621b67a))
+
 <a name="1.1.1"></a>
 
 ## 1.1.1 (2019-08-05)
