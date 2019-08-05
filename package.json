@@ -16,7 +16,8 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --env=jsdom"
+    "test": "tsdx test --env=jsdom",
+    "release": "release-it"
   },
   "peerDependencies": {
     "react": ">=16",
@@ -38,14 +39,43 @@
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
     "@types/react-native": "^0.60.2",
+    "conventional-changelog-cz-emoji": "^2.0.1",
+    "cz-emoji": "^1.1.2",
     "husky": "^3.0.2",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-native": "^0.60.4",
+    "release-it": "^12.3.5",
     "tsdx": "^0.7.2",
     "tslib": "^1.10.0",
     "typescript": "^3.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  },
+  "release-it": {
+    "preReleaseId": "beta",
+    "hooks": {
+      "before:init": "yarn test && yarn build"
+    },
+    "npm": {
+      "otp": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "cz-emoji",
+        "infile": "CHANGELOG.md"
+      }
+    }
+  },
+  "dependencies": {
+    "@release-it/conventional-changelog": "^1.1.0"
   }
 }
