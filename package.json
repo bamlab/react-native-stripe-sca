@@ -18,10 +18,11 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --env=jsdom",
-    "release": "release-it"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "release": "release-it",
+    "start": "tsdx watch",
+    "test": "tsdx test --env=jsdom"
   },
   "peerDependencies": {
     "react": ">=16",
@@ -39,18 +40,19 @@
     "trailingComma": "es5"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^1.1.0",
     "@types/jest": "^24.0.16",
-    "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
     "@types/react-native": "^0.60.2",
+    "@types/react": "^16.8.24",
     "conventional-changelog-cz-emoji": "^2.0.1",
     "cz-emoji": "^1.1.2",
     "husky": "^3.0.2",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
-    "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-native": "^0.60.4",
+    "react": "^16.8.6",
     "release-it": "^12.3.5",
     "tsdx": "^0.7.2",
     "tslib": "^1.10.0",
@@ -79,7 +81,10 @@
       }
     }
   },
-  "dependencies": {
-    "@release-it/conventional-changelog": "^1.1.0"
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "collectCoverage": true
   }
 }

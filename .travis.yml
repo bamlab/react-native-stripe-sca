@@ -1,0 +1,15 @@
+language: node_js
+cache:
+  directories:
+    - $HOME/.cache/yarn
+    - node_modules
+    - example/node_modules
+install:
+  - yarn
+  - cd example && yarn && cd ..
+jobs:
+  include:
+    - stage: test
+      script: yarn test
+after_success:
+  - yarn coveralls

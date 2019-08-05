@@ -39,3 +39,6 @@ local.properties
 buck-out/
 \.buckd/
 *.keystore
+
+# Coverage
+coverage
