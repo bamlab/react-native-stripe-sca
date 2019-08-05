@@ -3,6 +3,7 @@
 <p align="center">Stripe Payment-Intent and Setup-Intent react-native bridges.</p>
 
 <p align="center">
+<a href='https://coveralls.io/github/bamlab/react-native-stripe-sca'><img src='https://coveralls.io/repos/github/bamlab/react-native-stripe-sca/badge.svg' alt='Coverage Status' /></a>
 <a href="https://www.npmjs.com/package/react-native-stripe-sca"><img src="https://img.shields.io/npm/dw/react-native-stripe-sca.svg" alt="NPM Downloads"/></a>
 <a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"/></a>
 <a href="https://github.com/semantic-release/semantic-release"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-release"/></a>
