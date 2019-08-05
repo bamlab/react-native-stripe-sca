@@ -1,3 +1,11 @@
+<a name="1.1.3"></a>
+
+## [1.1.3](https://github.com/bamlab/react-native-stripe-sca/compare/1.1.2...1.1.3) (2019-08-05)
+
+### ✅ Tests
+
+- **example:** test setPublishableKey manually in app ([3fd2994](https://github.com/bamlab/react-native-stripe-sca/commit/3fd2994))
+
 <a name="1.1.2"></a>
 
 ## [1.1.2](https://github.com/bamlab/react-native-stripe-sca/compare/1.1.1...1.1.2) (2019-08-05)
