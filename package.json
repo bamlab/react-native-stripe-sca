@@ -66,7 +66,8 @@
   "release-it": {
     "preReleaseId": "beta",
     "hooks": {
-      "before:init": "yarn test && yarn build"
+      "before:init": "yarn test && yarn build",
+      "after:bump": "cd example/ios && bundle exec pod install --repo-update"
     },
     "npm": {
       "otp": true
