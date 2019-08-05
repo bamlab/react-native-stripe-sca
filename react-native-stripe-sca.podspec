@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/bamlab/react-native-stripe-sca"
   s.license      = "MIT"
-  s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = {
     "Nicolas Djambazian" => "nicolasd@bam.tech",
     "Antoine Doubovetzky" => "antoined@bam.tech",
